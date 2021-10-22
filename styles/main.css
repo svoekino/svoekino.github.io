@@ -29,3 +29,7 @@ table {
 a {
     pointer-events: none;
 }
+
+p {
+    color: brown;
+}
