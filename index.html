@@ -13,15 +13,21 @@
     <body>
         Main page
 
-        <p id="1" ondblclick="click()">Uporotye forms</a>
+        <p>Double click anywhere in this example.</p>
+<p id="log"></p>
 
 
 
             <script>
         
-                function click() {
-                    document.location.href = "https://svoekino.github.io/uporotye-forms/";
-                }
+        let log = document.getElementById('log');
+
+document.ondblclick = logDoubleClick;
+
+function logDoubleClick() {
+    document.location.href = "https://svoekino.github.io/uporotye-forms/";
+}
+               
                </script>
     </body>
 </html>
