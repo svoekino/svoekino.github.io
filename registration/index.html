@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Main page
+        </title>
+        <meta charset="utf-8">
+            <link href="css/main.css" rel="stylesheet" type="text/css">
+            </link>
+        </meta>
+    </head>
+    
+    <body>
+        <script>
+        const currentParams = window.location.search.substr(1);
+        const newUrl = `http://localhost:4200/registration${currentParams ? `?${currentParams}` : ''}`;
+
+        window.location.href = newUrl;
+        </script>
+    </body>
+</html>
