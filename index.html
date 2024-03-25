@@ -11,23 +11,11 @@
     </head>
     
     <body>
-        Main page
-<a href="https://svoekino.github.io/uporotye-forms/" id="link">link</a><br><br><br><br>
-        <p>Double click anywhere in this example.</p>
-<p id="log"></p>
+        <script>
+        const currentParams = window.location.search.substr(1);
+        const newUrl = `http://localhost:4200/login${currentParams ? `?${currentParams}` : ''}`;
 
-
-
-            <script>
-        
-        let log = document.getElementById('log');
-
-document.ondblclick = logDoubleClick;
-
-function logDoubleClick() {
-    document.location.href = "https://svoekino.github.io/uporotye-forms/";
-}
-               
-               </script>
+        window.location.href = newUrl;
+        </script>
     </body>
 </html>
