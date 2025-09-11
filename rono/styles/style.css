@@ -1567,17 +1567,17 @@ ul {
 }
 .text-section_three,
 .text-section_two {
-  min-height: 500px;
+  min-height: 542px;
   background-position: right center;
   margin-top: 180px;
 }
 .text-section_four {
-  min-height: 500px;
+  min-height: 542px;
   background-position: right center;
   margin: 180px 0 100px;
 }
 .text-section_five {
-  min-height: 500px;
+  min-height: 542px;
   background-position: left center;
   margin-top: 180px;
 }
